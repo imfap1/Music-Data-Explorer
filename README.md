@@ -41,9 +41,13 @@ These libraries provide the core functionality for retrieving, analyzing, and vi
 
 # Hipothesis
 -1 Explicit Songs Proportion
+
 -2 Top Song Popularity by Country
+
 -3 Danceability and Energy Variation by Country
+
 -4 Dominant Artists in the Playlist
+
 
 # Analysis
 ## Hypothesis 1: Explicit Songs Proportion
