@@ -2,7 +2,7 @@
 # Music Data Explorer
 ## Introduction
 
-The "Spotify Data Analysis" project is a powerful tool for extracting, analyzing, and visualizing data from Spotify. It provides users with the ability to explore their music playlists in-depth, gain insights into song and artist characteristics, and create insightful visualizations. This project is designed for music enthusiasts, data analysts, and anyone interested in understanding their music preferences better.
+The "Music Data Explorer" project is a tool for extracting, analyzing, and visualizing data from Spotify. It provides users with the ability to explore their music playlists in-depth, gain insights into song and artist characteristics, and create insightful visualizations. This project is designed for music enthusiasts, data analysts, and anyone interested in understanding their music preferences better.
 
 ## Key Features
 ### 1. Data Retrieval
