@@ -98,7 +98,7 @@ Explicit Songs Proportion: The analysis of explicit vs. non-explicit songs revea
 
 Top Songs by Country: The identification of the top songs by country based on popularity provided a glimpse into the preferences of listeners in different regions, showcasing variations in song choices.
 
-Average Danceability and Energy: The examination of danceability and energy scores by country highlighted differences in the musical attributes of songs preferred by various countries.
+Average Danceability and Energy: The examination of danceability and energy scores by country highlighted slightly differences in the musical attributes of songs preferred by various countries.
 
 Dominant Artists: The analysis of top artists indicated the presence of dominant artists who had a substantial number of songs in the playlist, potentially reflecting the popularity of specific artists among listeners.
 
