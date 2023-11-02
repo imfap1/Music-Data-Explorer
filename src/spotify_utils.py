@@ -5,11 +5,12 @@ from time import sleep
 import webbrowser
 import pyautogui
 import pandas as pd
+from getpass import getpass
 
 def get_spotify_data():
     # Set up application credentials
     client_id = "fc2dab8e01b14550af609407445cf693"
-    client_secret = "f61fd6e992d047ce948205cf3610fe98"
+    client_secret = getpass()
 
     # Create an instance of the Spotipy class to interact with the Spotify API
     sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
