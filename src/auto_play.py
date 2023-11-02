@@ -8,12 +8,12 @@ import webbrowser
 import pyautogui
 from time import sleep
 import pandas as pd
-
+from getpass import getpass
 
 def search_and_play_song(song_name, artist_name=None):
     # Set up Spotify API credentials (moved outside the function)
     client_id = "e082cfefdce54a4d83816d4d258c139d"
-    client_secret = "bf908ebca4ee4bba822e49dc9b84f725"
+    client_secret = getpass()
 
     # Configure application credentials
     client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
