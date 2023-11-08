@@ -78,7 +78,7 @@ With these libraries at your disposal, you're well-equipped to explore, analyze,
 - **Null Hypothesis (H0):** The percentage of explicit songs in the playlist is equal to the percentage of non-explicit songs.
 - **Alternative Hypothesis (H1):** The percentage of explicit songs in the playlist is different from the percentage of non-explicit songs.
 
-!(https://github.com/imfap1/Project-II/blob/main/images/piechart.png)
+![PieChart](https://github.com/imfap1/Project-II/blob/main/images/piechart.png?raw=true)
 
 This hypothesis delves into the presence of explicit songs within the playlist, evaluating their impact on the overall composition.
 
@@ -87,7 +87,7 @@ This hypothesis delves into the presence of explicit songs within the playlist, 
 - **Null Hypothesis (H0):** There is no significant difference in the popularity of the top songs among different countries.
 - **Alternative Hypothesis (H1):** The popularity of the top songs varies significantly across different countries.
 
-!(https://github.com/imfap1/Project-II/blob/main/images/barplot.png)
+![Top Songs](https://github.com/imfap1/Project-II/blob/main/images/barplot.png)
 
 This hypothesis aims to uncover any significant differences in the popularity of top songs among various countries, potentially influenced by cultural or regional factors.
 
@@ -96,7 +96,7 @@ This hypothesis aims to uncover any significant differences in the popularity of
 - **Null Hypothesis (H0):** The average danceability and energy scores of songs from different countries are not significantly different.
 - **Alternative Hypothesis (H1):** There is a significant variation in the average danceability and energy scores of songs from different countries.
 
-!(https://github.com/imfap1/Project-II/blob/main/images/average_danceability.png)
+![Danceability](https://github.com/imfap1/Project-II/blob/main/images/average_danceability.png)
 
 This hypothesis explores the variation in danceability and energy scores based on the songs' countries of origin, potentially revealing cultural or regional musical influences.
 
@@ -105,7 +105,7 @@ This hypothesis explores the variation in danceability and energy scores based o
 - **Null Hypothesis (H0):** The distribution of artists in the playlist is uniform, with no specific artist dominating.
 - **Alternative Hypothesis (H1):** There are a few dominant artists who significantly contribute to the playlist, while most artists have minimal representation.
 
-!(https://github.com/imfap1/Project-II/blob/main/images/top_artists.png)
+![Dominant Artists](https://github.com/imfap1/Project-II/blob/main/images/top_artists.png)
  
 This hypothesis seeks to identify any dominant artists within the playlist, potentially indicating listener preferences or specific musical genres' popularity.
 
