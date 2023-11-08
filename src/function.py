@@ -1,4 +1,4 @@
-# %%
+
 import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
@@ -7,8 +7,6 @@ import seaborn as sns
 import os
 
 
-
-# %%
 def piechart(final_df, save=True, file_path=None, file_name=None):
     # Count the number of explicit and non-explicit songs
     explicit_count = len(final_df[final_df['Explicit'] == True])
@@ -29,13 +27,11 @@ def piechart(final_df, save=True, file_path=None, file_name=None):
     # Save the chart as an image if save is set to True
     if save and file_path and file_name:
         plt.savefig(file_path + file_name, format='png')
-
-# %%
 def top_popularity_songs(final_df):
     popularity_songs = final_df.loc[final_df.groupby('Country')['Popularity'].idxmax()]
     return popularity_songs
 
-# %%
+
 def barplot(final_df, save=False, file_path=None, file_name=None):
     # Filter the DataFrame to keep only the top song for each country
     top_songs = final_df.loc[final_df.groupby('Country')['Popularity'].idxmax()]
@@ -69,7 +65,6 @@ def barplot(final_df, save=False, file_path=None, file_name=None):
     plt.show()
 
 
-# %%
 def heatmap(final_df, save=True, file_path=None, file_name=None):
     numeric_columns = final_df.select_dtypes(include='number')  # Selecting only the numerical values
     correlation_matrix = numeric_columns.corr()  # Calculating correlation
@@ -84,7 +79,6 @@ def heatmap(final_df, save=True, file_path=None, file_name=None):
     plt.show()
 
 
-# %%
 def average_danceability(final_df, save=False, file_path=None, file_name=None):
     # Group data by country
     grouped_data = final_df.groupby('Country')
@@ -121,7 +115,6 @@ def average_danceability(final_df, save=False, file_path=None, file_name=None):
     plt.show()
 
 
-# %%
 def top_artist(final_df, save=False, file_path=None, file_name=None):
     # Group the data by the 'Artist' column and count the occurrences
     artist_counts = final_df['Artist'].value_counts()
@@ -148,7 +141,6 @@ def top_artist(final_df, save=False, file_path=None, file_name=None):
     plt.show()
 
 
-# %%
 import matplotlib.pyplot as plt
 
 def scatter_plot(final_df, save=False, file_path=None, file_name=None):
@@ -174,8 +166,6 @@ def scatter_plot(final_df, save=False, file_path=None, file_name=None):
     print("Correlations by Country:")
     print(correlations_by_country)
 
-
-# %%
 def average_song(final_df, save=False, file_path=None, file_name=None):
     final_df["Duration (m)"] = final_df["Duration (s)"] / 60
 
@@ -204,8 +194,6 @@ def average_song(final_df, save=False, file_path=None, file_name=None):
 
     return average_durations
 
-
-# %%
 def save_dataframe_to_csv(dataframe, folder_path, file_name):
     try:
         file_path = folder_path + file_name
@@ -215,7 +203,6 @@ def save_dataframe_to_csv(dataframe, folder_path, file_name):
         print(f"Error saving DataFrame: {e}")
         return False
 
-# %%
 
 
 
