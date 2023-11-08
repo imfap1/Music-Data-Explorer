@@ -20,7 +20,6 @@ Welcome to the "Music Data Explorer" project, a tool that lets you extract, anal
 
 - Data retrieval from the Spotify API.
 - Data analysis and visualization using Python and relevant libraries.
-To address the requirement for clearer separation and understanding of the key features, we can restructure the "Key Features" section to make it more distinct and easier to comprehend. Here's an improved version:
 
 ## Key Features
 
