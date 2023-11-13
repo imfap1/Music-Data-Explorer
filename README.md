@@ -1,7 +1,3 @@
-Certainly, here's a more persuasive and comprehensive version of your project's README:
-
----
-
 # Project-II: Music Data Explorer
 
 ## Introduction
